@@ -8,13 +8,13 @@ window.onload = setTimeout(function(){
    renderDelay: 6e3
   }
   $.getScript("https://www.allianzdirect.nl/scripts/twilio.webchat.min.js", function() {
-     //alert("Script loaded but not necessarily executed.");
+     alert("Script loaded but not necessarily executed.");
   });
   $.getScript("https://cdn.cookielaw.org/consent/6c7e3066-577e-4f05-a5c5-b4a7362b74a8.js", function() {
-     //alert("Script loaded but not necessarily executed.");
+     alert("Script loaded but not necessarily executed.");
   });
   $.getScript("https://www.allianzdirect.nl/scripts/license-plate-es2015.js", function() {
-     //alert("Script loaded but not necessarily executed.");
+     alert("Script loaded but not necessarily executed.");
   });
   licenseplate = '';
   const component = document.querySelector('license-plate');
